@@ -1,0 +1,3 @@
+#Input function recives user data
+#You can nest functions within functions, ej. input function inside a print function
+print("Hello " + input("What is your name?"))
