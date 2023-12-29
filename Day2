@@ -1,0 +1,63 @@
+#Data Types
+#In Python, there are four types of data types:
+#Strings, Integers, Floats, and Booleans.
+
+#Strings
+#Strings are a type of data that represents text.
+#Strings are written with quotation marks around them.
+#You can use single or double quotation marks.
+#Example:
+print("Hello World")
+print('Hello World')
+
+#Integers
+#Integers are a type of data that represents whole numbers.
+#Integers are written without quotation marks.
+#Example:
+print(10)
+
+#For more readable numbers, you can use underscores to separate the thousands.
+#Example:
+print(10_000)
+
+#Floats
+#Floats are a type of data that represents decimal numbers.
+#Floats are written without quotation marks.
+#Example:
+print(3.14)
+
+#Booleans
+#Booleans are a type of data that represents True or False values.
+#Booleans are written without quotation marks.
+#Example:
+print(True)
+print(False)
+
+#You can't mix integers with strings. For that, you have to convert the integer to a string.
+#Example:
+print("Hello " + str(10))
+
+#There six operations in Python: Addition, Subtraction, Multiplication, Division, Power, and Modulus.
+#Addition:
+print(10 + 10)
+
+#Subtraction:  
+print(20 - 10)
+
+#Multiplication:
+print(10 * 10)
+
+#Division:
+print(20 / 10)
+#Notice how division will be a float type instead of a integer type
+
+#Power:
+print(2 ** 3)
+
+#Modulus:
+print(20 % 10)
+
+#You can use parentheses to change the order of operations.
+#Example:
+print(3 * 3 + 3 / 3 - 3)
+print(3 * (3 + 3) / 3 - 3)
